@@ -18,7 +18,7 @@ export default function header() {
                         </h5>
                         <h5 className="logotext">
                             {" "}
-                            State University - NIRF Rank 59 - NIRF Innovation band of 11-50
+                            State University - NIRF Rank 59 - NIRF Innovation Band of 11-50
                         </h5>
                         <h5 className="logotext">Salem-636011, Tamilnadu, India.</h5>
                     </div>

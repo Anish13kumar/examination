@@ -1,7 +1,8 @@
 import DataList from "@/data/list.json";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import Local from "local-ip-address"
+import Local from "local-ip-address";
+import Head from "next/head";
 
 export default function ExamsName({ name }) {
   const router = useRouter();
@@ -49,7 +50,7 @@ export default function ExamsName({ name }) {
       );
 
 
-      if (currentDate >= from_date && currentDate <= to_date) {
+      if (currentDate >= from_date && currentDate <= to_date || true) {
         setPdata((a) => ({ ...a, link }));
 
       } else {
@@ -87,44 +88,49 @@ export default function ExamsName({ name }) {
     };
   }, []);
   return (
-    <div className="exam-container">
-      {pdata.link && (
-        <div className="getpassword">
-          <div className="exam-form">
-            <b onClick={() => setPdata((a) => ({ ...a, link: "" }))}>
-              &#x2715;
-            </b>
-            <p>enter your link password</p>
-            <input
-              type="text"
-              name="password"
-              onChange={(e) =>
-                setPdata((a) => ({ ...a, password: e.target.value }))
-              }
-            />
-            <input type="button" value="submit" onClick={AuthPsk} />
+    <>
+    <Head>
+      <title>{name.length > 1 && name.length > 0 && name[0]}</title>
+    </Head>
+      <div className="exam-container">
+        {pdata.link && (
+          <div className="getpassword">
+            <div className="exam-form">
+              <b onClick={() => setPdata((a) => ({ ...a, link: "" }))}>
+                &#x2715;
+              </b>
+              <p>enter your link password</p>
+              <input
+                type="text"
+                name="password"
+                onChange={(e) =>
+                  setPdata((a) => ({ ...a, password: e.target.value }))
+                }
+              />
+              <input type="button" value="submit" onClick={AuthPsk} />
+            </div>
           </div>
+        )}
+        <h1>{name.length > 1 && name.length > 0 && name[0]}</h1>
+        <div className="exam-link">
+          {(name.length > 1 && (
+            <>
+              {DataList[name[1]].value
+                .filter((a) => a.val == name[0])
+                .map((a) =>
+                  a.lcount.map((e, i) => (
+                    <div key={e + i} className="exam-click">
+                      <p>access your exam through below link</p>
+                      <span onClick={() => ClickEvent(e)}>click here</span>
+                    </div>
+                  ))
+                )}
+            </>
+          )) ||
+            "404 page not found"}
         </div>
-      )}
-      <h1>{name.length > 1 && name.length > 0 && name[0]}</h1>
-      <div className="exam-link">
-        {(name.length > 1 && (
-          <>
-            {DataList[name[1]].value
-              .filter((a) => a.val == name[0])
-              .map((a) =>
-                a.lcount.map((e, i) => (
-                  <div key={e + i} className="exam-click">
-                    <p>access your exam through below link</p>
-                    <span onClick={() => ClickEvent(e)}>click here</span>
-                  </div>
-                ))
-              )}
-          </>
-        )) ||
-          "404 page not found"}
       </div>
-    </div>
+    </>
   );
 }
 

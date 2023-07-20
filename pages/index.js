@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Datalist from "@/data/list.json"
-import Link from "next/link"
+import Head from 'next/head';
+import Image from 'next/image';
+import Datalist from "@/data/list.json";
+import Link from "next/link";
 
 
 const Boxvalue = (props) => {
@@ -15,8 +15,8 @@ const Boxvalue = (props) => {
         )
       }
     </div>
-  )
-}
+  );
+};
 
 export default function Home() {
 
@@ -29,15 +29,15 @@ export default function Home() {
         <link rel="icon" href="/logo.png" />
       </Head>
       <div className='container'>
-        <h1>MPhil/Ph.D Common Entrance (CET-JUL-2023)</h1>
+        <h1>M.Phil/Ph.D Common Entrance (CET-22-JULY-2023)</h1>
         <div className='box-container'>
           {
             Object.keys(Datalist).map((a, i) => {
-              return <div key={a} className='box'><h1>{Datalist[a].name}</h1>{Boxvalue(i)}</div>
+              return <div key={a} className='box'><h1>{Datalist[a].name}</h1>{Boxvalue(i)}</div>;
             })
           }
         </div>
       </div>
     </>
-  )
+  );
 }
