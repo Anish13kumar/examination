@@ -1,4 +1,3 @@
-
 {
   "list1": {
     "name": "Science Departments List 1",
@@ -7,7 +6,7 @@
       {
         "val": "Biochemistry",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7"
+          "https://forms.gle/wRxGEMdZSuSTU5UB6"
         ],
         "link": "/exams/Biochemistry/list1",
         "psk": "bio2023",
@@ -21,7 +20,7 @@
       {
         "val": "Biotechnology",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7"
+          "https://forms.gle/QVLxAKZ57LSFtfvc7"
         ],
         "link": "/exams/Biotechnology/list1",
         "psk": "biot2023",
@@ -35,7 +34,7 @@
       {
         "val": "Botany",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7"
+          "https://forms.gle/6rqYv4CzFetK5j3v7"
         ],
         "link": "/exams/Botany/list1",
         "psk": "bot2023",
@@ -49,7 +48,7 @@
       {
         "val": "Chemistry",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7"
+          "https://forms.gle/T763xumWTxwrFYzd7"
         ],
         "link": "/exams/Chemistry/list1",
         "psk": "che2023",
@@ -63,7 +62,7 @@
       {
         "val": "Computer Science",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7"
+          "https://forms.gle/SofNfmv1KgpL8SE47"
         ],
         "link": "/exams/Computer Science/list1",
         "psk": "com2023",
@@ -77,7 +76,7 @@
       {
         "val": "Energy Science",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7"
+          "https://forms.gle/TfseuXFsHjoWsXgt8"
         ],
         "link": "/exams/Energy Science/list1",
         "psk": "ens2023",
@@ -91,7 +90,7 @@
       {
         "val": "Education",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7"
+          "https://forms.gle/8u8HDzdtLHLg5uRf9"
         ],
         "link": "/exams/Education/list1",
         "psk": "edu2023",
@@ -105,7 +104,7 @@
       {
         "val": "Environmental Science",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7  "
+          "https://forms.gle/b41yvo972m4unMpPA  "
         ],
         "link": "/exams/Environmental Science/list1",
         "psk": "env2023",
@@ -119,7 +118,7 @@
       {
         "val": "Energy Technology",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7"
+          "https://forms.gle/eYLFZQ11fmcf2r288"
         ],
         "link": "/exams/Energy Technology/list1",
         "psk": "ent2023",
@@ -133,7 +132,7 @@
       {
         "val": "Food Science and Nutrition",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7"
+          "https://forms.gle/1AdZaRVKwxwydS3Y8"
         ],
         "link": "/exams/Food Science and Nutrition/list1",
         "psk": "foo2023",
@@ -147,7 +146,7 @@
       {
         "val": "Library and Information Science",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7"
+          "https://forms.gle/QNmsdKou5DGS6krb7"
         ],
         "link": "/exams/Library and Information Science/list1",
         "psk": "lib2023",
@@ -167,7 +166,7 @@
       {
         "val": "Geology",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7 "
+          "https://forms.gle/7Muzt4d3Zn39ndrm8 "
         ],
         "link": "/exams/Geology/list2",
         "psk": "geo2023",
@@ -181,7 +180,7 @@
       {
         "val": "Mathematics",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7"
+          "https://forms.gle/is7Qtuv5ZF3DEc2y9"
         ],
         "link": "/exams/Mathematics/list2",
         "psk": "mat2023",
@@ -195,7 +194,7 @@
       {
         "val": "Microbiology",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7 "
+          "https://forms.gle/FwPhj2SEUtjUuTB69 "
         ],
         "link": "/exams/Microbiology/list2",
         "psk": "mic2023",
@@ -209,7 +208,7 @@
       {
         "val": "Nutrition and Dietetics",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7"
+          "https://forms.gle/UsztowkQKaHMrk6J8"
         ],
         "link": "/exams/Nutrition and Dietetics/list2",
         "psk": "nut2023",
@@ -223,7 +222,7 @@
       {
         "val": "Physics",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7 "
+          "https://forms.gle/3T1u3R4yHpmahf989 "
         ],
         "link": "/exams/Physics/list2",
         "psk": "phy2023",
@@ -237,7 +236,7 @@
       {
         "val": "Psychology",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7 "
+          "https://forms.gle/9AKKf3ZKQxEmVHRcA "
         ],
         "link": "/exams/Psychology/list2",
         "psk": "psy2023",
@@ -251,7 +250,7 @@
       {
         "val": "Physical Education",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7 "
+          "https://forms.gle/5zTNHcw2gG5ZxYD57 "
         ],
         "link": "/exams/Physical Education/list2",
         "psk": "phy2023",
@@ -265,7 +264,7 @@
       {
         "val": "Statistics",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7 "
+          "https://forms.gle/62TZ8AcUfyHM2gJQA "
         ],
         "link": "/exams/Statistics/list2",
         "psk": "sta2023",
@@ -279,7 +278,7 @@
       {
         "val": "Textiles and Apparel Design",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7 "
+          "https://forms.gle/UWAZ7QcwpQYHXnpU8 "
         ],
         "link": "/exams/Textiles and Apparel Design/list2",
         "psk": "tex2023",
@@ -293,7 +292,7 @@
       {
         "val": "Zoology",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7 "
+          "https://forms.gle/7MQWrv6KwsVYUPVe8 "
         ],
         "link": "/exams/Zoology/list2",
         "psk": "zoo2023",
@@ -313,7 +312,7 @@
       {
         "val": "Commerce",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7 "
+          "https://forms.gle/r7A8RLLhbAmA5qgr8 "
         ],
         "link": "/exams/Commerce/arts",
         "psk": "com2023",
@@ -327,7 +326,7 @@
       {
         "val": "Economics",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7"
+          "https://forms.gle/8n7wjakQzZMJpeNX9"
         ],
         "link": "/exams/Economics/arts",
         "psk": "eco2023",
@@ -342,7 +341,7 @@
       {
         "val": "English",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7 "
+          "https://forms.gle/XJijqHGS3PuFRTvLA "
         ],
         "link": "/exams/English/arts",
         "psk": "eng2023",
@@ -356,7 +355,7 @@
       {
         "val": "History",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7 "
+          "https://forms.gle/4AzAS2YSnZ81qeBY6 "
         ],
         "link": "/exams/History/arts",
         "psk": "his2023",
@@ -370,7 +369,7 @@
       {
         "val": "Journalism and Mass Communication",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7"
+          "https://forms.gle/CXfZvehWoHo5dXrr8"
         ],
         "link": "/exams/Journalism and Mass Communication/arts",
         "psk": "jou2023",
@@ -384,7 +383,7 @@
       {
         "val": "Public Administration (M.Phil. only)",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7"
+          "https://forms.gle/DaZxHK4frLmamLjQ9"
         ],
         "link": "/exams/Public Administration (M.Phil. only)/arts",
         "psk": "pub2023",
@@ -398,7 +397,7 @@
       {
         "val": "Management Studies",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7"
+          "https://forms.gle/TpaHXVf5ALs1f2La8"
         ],
         "link": "/exams/Management Studies/arts",
         "psk": "man2023",
@@ -412,7 +411,7 @@
       {
         "val": "Political Science",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7 "
+          "https://forms.gle/4JZdcrVpdJYzQBrW6 "
         ],
         "link": "/exams/Political Science/arts",
         "psk": "pol2023",
@@ -426,7 +425,7 @@
       {
         "val": "Sociology",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7 "
+          "https://forms.gle/vsaTUy16cHvkgE6e7 "
         ],
         "link": "/exams/Sociology/arts",
         "psk": "soc2023",
@@ -440,7 +439,7 @@
       {
         "val": "Tamil",
         "lcount": [
-          "https://forms.gle/3gsJSgk2G819zCfP7"
+          "https://forms.gle/ruq4a5pZ7kR3Cdiw7"
         ],
         "link": "/exams/Tamil/arts",
         "psk": "tam2023",
